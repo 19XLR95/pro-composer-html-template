@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Professional Composer, Olivia Green">
+
+
+    <title>Professional Composer | Olivia Green</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/og.css">
+  </head>
+
+  <body>
+    <button id="menuBtn" class="ui basic big icon button">
+      <i style="color: white;" class="fas fa-bars"></i>
+    </button>
+
+    <div id="mobileMenu">
+      <button id="mobileMenuCloseBtn" class="ui basic inverted icon huge button">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div id="mobileMenuList">
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="index.html">Home</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="projects.html">Projects</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="blog.html">Blog</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="siteContent">
+      <div style="background-image: url('res/images/bg3.jpg') !important; background-position: center;" id="mainBG"></div>
+
+      <div id="menuGrid">
+        <div class="menuColLeft">
+          <a class="menuItem" href="index.html">Home</a>
+        </div>
+
+        <div class="menuColLeft">
+          <a class="menuItem" href="projects.html">Projects</a>
+        </div>
+
+        <div class="menuColImg">
+          <img class="ui image" src="res/images/logo.png" alt="Olivia Green" width="200px">
+        </div>
+
+        <div class="menuColRight">
+          <a class="menuItem" href="blog.html">Blog</a>
+        </div>
+
+        <div class="menuColRight">
+          <a class="menuItem" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div style="margin-top: 50px;" class="ui grid">
+        <div class="ui sixteen wide center aligned column">
+          <a class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Soundcloud" data-position="bottom center" data-inverted="">
+            <i class="fab fa-soundcloud socialBtnIcon"></i>
+          </a>
+
+          <a class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Youtube" data-position="bottom center" data-inverted="">
+            <i class="fab fa-youtube socialBtnIcon"></i>
+          </a>
+
+          <a class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Spotify" data-position="bottom center" data-inverted="">
+            <i class="fab fa-spotify socialBtnIcon"></i>
+          </a>
+
+          <a class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Twitter" data-position="bottom center" data-inverted="">
+            <i class="fab fa-twitter socialBtnIcon"></i>
+          </a>
+        </div>
+
+        <div style="padding: 5%;" class="ui sixteen wide column">
+          <form class="ui form">
+            <div class="two fields">
+              <div class="required field">
+                <label class="formLabel">Name</label>
+                <input class="formField" type="text" placeholder="Name">
+              </div>
+
+              <div class="required field">
+                <label class="formLabel">Surname</label>
+                <input class="formField" type="text" placeholder="Surname">
+              </div>
+            </div>
+
+            <div class="two fields">
+              <div class="required field">
+                <label class="formLabel">Email</label>
+                <input class="formField" type="text" placeholder="Email">
+              </div>
+
+              <div class="required field">
+                <label class="formLabel">Phone</label>
+                <input class="formField" type="text" placeholder="Phone">
+              </div>
+            </div>
+
+            <div class="required field">
+              <label class="formLabel">Message / Project Details</label>
+              <textarea class="formField" placeholder="Message or project details..."></textarea>
+            </div>
+
+            <button style="width: 150px; left: 50%; transform: translateX(-50%); position: relative;" class="ui basic big button socialBtn">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <footer>
+        <div class="ui grid">
+          <div class="ui sixteen wide center aligned column">
+            <a id="brand" href="https://clasxsoft.com">All rights reserved. | ClasX Software &reg</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="js/og.js"></script>
+</html>

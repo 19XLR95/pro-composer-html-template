@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Professional Composer, Olivia Green">
+
+
+    <title>Professional Composer | Olivia Green</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/og.css">
+  </head>
+
+  <body>
+    <button id="menuBtn" class="ui basic big icon button">
+      <i style="color: white;" class="fas fa-bars"></i>
+    </button>
+
+    <div id="mobileMenu">
+      <button id="mobileMenuCloseBtn" class="ui basic inverted icon huge button">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div id="mobileMenuList">
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="index.html">Home</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="projects.html">Projects</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="blog.html">Blog</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="siteContent">
+      <div id="mainBG"></div>
+
+      <div id="menuGrid">
+        <div class="menuColLeft">
+          <a class="menuItem" href="index.html">Home</a>
+        </div>
+
+        <div class="menuColLeft">
+          <a class="menuItem" href="projects.html">Projects</a>
+        </div>
+
+        <div class="menuColImg">
+          <img class="ui image" src="res/images/logo.png" alt="Olivia Green" width="200px">
+        </div>
+
+        <div class="menuColRight">
+          <a class="menuItem" href="blog.html">Blog</a>
+        </div>
+
+        <div class="menuColRight">
+          <a class="menuItem" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div style="margin-top: 25px;" class="ui mobile reversed stackable grid">
+        <div class="ui ten wide column">
+          <h1 id="title" class="ui dividing header">
+            Olivia Green
+            <span id="profession">Professional Composer</span>
+          </h1>
+
+          <p id="aboutText">
+            Nam sed velit venenatis, consequat arcu ornare, malesuada arcu. Suspendisse placerat leo et interdum tristique. Aliquam ac lorem odio. Nunc commodo sodales condimentum. Sed sed magna ut quam tincidunt pellentesque et sit amet magna. Nam nec velit sit amet ex mollis scelerisque eget sed sem. Pellentesque volutpat sem in magna sollicitudin ultrices. Pellentesque a eleifend orci. Fusce commodo mi ut consequat sollicitudin.
+            Cras sodales elit dui, id volutpat lacus cursus et. Suspendisse pharetra sed nibh eget ullamcorper. Proin nec ante sed purus commodo consequat. Nunc et efficitur lacus. Ut tempus ipsum nunc, sit amet accumsan libero faucibus sed. Donec euismod justo lobortis sem mattis accumsan. Phasellus imperdiet magna enim.
+          </p>
+
+          <a style="margin-left: 5%; margin-top: 3%;" class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Soundcloud" data-position="bottom center" data-inverted="">
+            <i class="fab fa-soundcloud socialBtnIcon"></i>
+          </a>
+
+          <a style="margin-top: 3%;" class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Youtube" data-position="bottom center" data-inverted="">
+            <i class="fab fa-youtube socialBtnIcon"></i>
+          </a>
+
+          <a style="margin-top: 3%;" class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Spotify" data-position="bottom center" data-inverted="">
+            <i class="fab fa-spotify socialBtnIcon"></i>
+          </a>
+
+          <a style="margin-top: 3%;" class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Twitter" data-position="bottom center" data-inverted="">
+            <i class="fab fa-twitter socialBtnIcon"></i>
+          </a>
+
+          <a style="margin-top: 3%;" class="ui basic massive circular icon button socialBtn" href="#" data-tooltip="Email" data-position="bottom center" data-inverted="">
+            <i class="far fa-envelope socialBtnIcon"></i>
+          </a>
+        </div>
+
+        <div class="ui six wide column">
+          <img id="profilePic" class="ui image" src="res/images/profile-pic.jpg" alt="Olivia Green">
+        </div>
+      </div>
+
+      <div style="margin-top: 80px;" class="ui stackable center aligned grid">
+        <div class="ui sixteen wide column">
+          <h1 id="ongoingTitle">Ongoing Projects</h1>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/ongoing1.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Quisque quis turpis lobortis.</p>
+            <p class="ongoingContentText">Fusce ultricies facilisis metus, nec ornare eros lacinia nec. Vestibulum orci sem.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/ongoing2.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Curabitur ut turpis nisl.</p>
+            <p class="ongoingContentText">Maecenas nunc metus, viverra ac pharetra vel, placerat ac enim. Cras varius sagittis imperdiet.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/ongoing3.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Maecenas porta feugiat odio vitae auctor.</p>
+            <p class="ongoingContentText">Morbi volutpat elit sapien, quis porta ante efficitur id. Maecenas dignissim a lacus id elementum.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="ui grid">
+          <div class="ui sixteen wide center aligned column">
+            <a id="brand" href="https://clasxsoft.com">All rights reserved. | ClasX Software &reg</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="js/og.js"></script>
+</html>

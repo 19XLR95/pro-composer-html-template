@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Professional Composer, Olivia Green">
+
+
+    <title>Professional Composer | Olivia Green</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/og.css">
+  </head>
+
+  <body>
+    <button id="menuBtn" class="ui basic big icon button">
+      <i style="color: white;" class="fas fa-bars"></i>
+    </button>
+
+    <div id="mobileMenu">
+      <button id="mobileMenuCloseBtn" class="ui basic inverted icon huge button">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div id="mobileMenuList">
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="index.html">Home</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="projects.html">Projects</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="blog.html">Blog</a>
+        </div>
+
+        <div>
+          <a class="ui basic inverted button mobileMenuItemBtn" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="siteContent">
+      <div style="background-image: url('res/images/bg2.jpg') !important; background-position: center;" id="mainBG"></div>
+
+      <div id="menuGrid">
+        <div class="menuColLeft">
+          <a class="menuItem" href="index.html">Home</a>
+        </div>
+
+        <div class="menuColLeft">
+          <a class="menuItem" href="projects.html">Projects</a>
+        </div>
+
+        <div class="menuColImg">
+          <img class="ui image" src="res/images/logo.png" alt="Olivia Green" width="200px">
+        </div>
+
+        <div class="menuColRight">
+          <a class="menuItem" href="blog.html">Blog</a>
+        </div>
+
+        <div class="menuColRight">
+          <a class="menuItem" href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div style="margin-top: 25px;" class="ui stackable center aligned grid">
+        <div class="ui sixteen wide column">
+          <h1 id="title" style="width: 400px; margin-left: 3% !important; margin-bottom: 20px; text-align: left !important;" class="ui dividing header">Past Projects</h1>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/past1.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Quisque id lorem enim.</p>
+            <p class="ongoingContentText">Vestibulum varius risus non augue interdum, a rutrum erat dignissim. Nulla interdum, nulla non.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/past2.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Donec tempor ultricies ipsum ut suscipit.</p>
+            <p class="ongoingContentText">Donec dapibus molestie dui, ac sagittis eros rhoncus ac. Nam pulvinar lacus ullamcorper varius lobortis.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/past3.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Vivamus leo enim, eleifend.</p>
+            <p class="ongoingContentText">Nunc id malesuada justo. Aenean id magna posuere, tristique sapien sit amet, elementum metus.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/past4.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Praesent ligula purus.</p>
+            <p class="ongoingContentText">Duis sit amet mauris vel magna luctus mattis vel ut libero. Pellentesque volutpat sagittis metus.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/past5.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">In auctor augue.</p>
+            <p class="ongoingContentText">Morbi id tellus vitae dui eleifend aliquet. In ipsum enim, porta ut laoreet non, maximus id sapien.</p>
+          </div>
+        </div>
+
+        <div onmouseover="highlightSection(this)" onmouseout="reverseHighlight(this)" class="ui five wide column ongoingCol">
+          <img class="ui centered image" src="res/images/past6.jpg" alt="Olivia Green Ongoing Projects">
+          <div class="ongoingContent">
+            <p class="ongoingContentTitle">Aenean consectetur.</p>
+            <p class="ongoingContentText">Suspendisse eu justo non ex volutpat pretium. Nam ullamcorper pellentesque ullamcorper.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="ui grid">
+          <div class="ui sixteen wide center aligned column">
+            <a id="brand" href="https://clasxsoft.com">All rights reserved. | ClasX Software &reg</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="js/og.js"></script>
+</html>
