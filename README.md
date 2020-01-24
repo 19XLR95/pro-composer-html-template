@@ -1,2 +1,2 @@
 # pro-composer-html-template
-pro-composer-html-template
+responsive pro composer html template
